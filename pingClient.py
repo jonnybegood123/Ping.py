@@ -26,7 +26,7 @@ while i <= 10:
 	returnedData, server = sendingSocket.recvfrom(1337)
 	print("Client: Received back message: " + returnedData)
 	rtt = time.time() - start
-	print("Elapsed time in seconds = " + str(rtt) + "seconds.")
+	print("Elapsed time in seconds = " + str(rtt) + " seconds.")
 	time.sleep(0.5)
 print("Done!")
 
