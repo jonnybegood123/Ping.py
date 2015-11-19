@@ -15,7 +15,7 @@ data = "DATA"
 #	sys.exit()
 
 sendingSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-sendingSocket.settimeout(1)
+sendingSocket.settimeout(5)
 
 i = 1
 while i <= 10:
