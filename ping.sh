@@ -1,4 +1,5 @@
 #!/bin/bash
 
-python pingServer.py & python pingClient.py
+python pingServer.py & sleep 2
 
+python pingClient.py
